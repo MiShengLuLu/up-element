@@ -1,5 +1,5 @@
-import LgForm from './src/form.vue'
+import UpForm from './src/form.vue'
 
-LgForm.install = Vue => Vue.component(LgForm.name, LgForm)
+UpForm.install = Vue => Vue.component(UpForm.name, UpForm)
 
-export default LgForm
+export default UpForm

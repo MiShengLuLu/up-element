@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "LgInput",
+  name: "UpInput",
   inheritAttrs: false,
   props: {
     type: {
@@ -22,7 +22,7 @@ export default {
       this.$emit("input", evt.target.value);
       const findParent = (parent) => {
         while (parent) {
-          if (parent.$options.name === "LgFormItem") {
+          if (parent.$options.name === "UpFormItem") {
             break;
           } else {
             parent = parent.$parent;

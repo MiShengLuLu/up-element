@@ -1,5 +1,5 @@
-import LgFormItem from './src/formItem'
+import UpFormItem from './src/formitem.vue'
 
-LgFormItem.install = Vue => Vue.component(LgFormItem.name, LgFormItem)
+UpFormItem.install = Vue => Vue.component(UpFormItem.name, UpFormItem)
 
-export default LgFormItem
+export default UpFormItem

@@ -1,32 +1,32 @@
-import LgForm from '..'
-import LgFormItem from '../../formitem'
-import LgInput from '../../input'
-import LgButton from '../../button'
+import UpForm from '..'
+import UpFormItem from '../../formitem'
+import UpInput from '../../input'
+import UpButton from '../../button'
 
 export default {
-  title: 'Example/LgFormItem',
-  component: LgFormItem
+  title: 'Example/UpFormItem',
+  component: UpFormItem
 }
 
 const Template = (args, { argTypes }) => ({
   props: Object.assign(argTypes),
-  components: { LgForm, LgFormItem, LgInput, LgButton },
+  components: { UpForm, UpFormItem, UpInput, UpButton },
   template: `
-    <lg-form class="form" ref="form" :model="user" :rules="rules">
-      <lg-form-item label="用户名" prop="username">
-        <lg-input v-model="user.username" placeholder="请输入用户名"></lg-input>
-      </lg-form-item>
-      <lg-form-item label="密码" prop="password">
-        <lg-input
+    <up-form class="form" ref="form" :model="user" :rules="rules">
+      <up-form-item label="用户名" prop="username">
+        <up-input v-model="user.username" placeholder="请输入用户名"></up-input>
+      </up-form-item>
+      <up-form-item label="密码" prop="password">
+        <up-input
           type="password"
           v-model="user.password"
           placeholder="请输入密码"
-        ></lg-input>
-      </lg-form-item>
-      <lg-form-item>
-        <lg-button @click="login">登 录</lg-button>
-      </lg-form-item>
-    </lg-form>
+        ></up-input>
+      </up-form-item>
+      <up-form-item>
+        <up-button @click="login">登 录</up-button>
+      </up-form-item>
+    </up-form>
   `,
   data() {
     return {

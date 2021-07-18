@@ -1,14 +1,14 @@
-import LgInput from '../'
+import UpInput from '../'
 
 export default {
-  title: 'Example/LgInput',
-  component: LgInput
+  title: 'Example/UpInput',
+  component: UpInput
 }
 
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
-  components: { LgInput },
-  template: '<lg-input v-model="value" :type="type"></lg-input>'
+  components: { UpInput },
+  template: '<up-input v-model="value" :type="type"></up-input>'
 })
 
 export const text = Template.bind({})

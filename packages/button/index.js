@@ -1,7 +1,7 @@
-import Button from './src/button.vue'
+import UpButton from './src/button.vue'
 
-Button.install = Vue => {
-  Vue.component(Button.name, Button)
+UpButton.install = Vue => {
+  Vue.component(UpButton.name, UpButton)
 }
 
-export default Button
+export default UpButton

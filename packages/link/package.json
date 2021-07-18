@@ -1,0 +1,17 @@
+{
+  "name": "up-link",
+  "version": "0.0.0",
+  "description": "up-link component",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "author": "celina520524",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "delete": "rimraf dist"
+  },
+  "dependencies": {
+  },
+  "keywords": []
+}

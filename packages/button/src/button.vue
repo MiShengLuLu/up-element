@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "LgButton",
+  name: "UpButton",
   methods: {
     handleClick(evt) {
       evt.preventDefault();

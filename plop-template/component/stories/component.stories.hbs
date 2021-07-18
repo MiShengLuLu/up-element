@@ -1,0 +1,18 @@
+import Up{{properCase name}} from '../src/{{name}}.vue'
+
+export default {
+  title: 'Up{{properCase name}}',
+  component: Up{{properCase name}}
+}
+
+const Template = (args, { argTypes }) => ({
+  props: Object.assign(argTypes),
+  components: { Up{{properCase name}} },
+  template: `
+    <div>
+      <up-{{name}}></up-{{name}}>
+    </div>
+  `
+})
+
+export const {{properCase name}} = Template.bind({})

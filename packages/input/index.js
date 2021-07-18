@@ -1,5 +1,5 @@
-import LgInput from './src/input.vue'
+import UpInput from './src/input.vue'
 
-LgInput.install = Vue => Vue.component(LgInput.name, LgInput)
+UpInput.install = Vue => Vue.component(UpInput.name, UpInput)
 
-export default LgInput
+export default UpInput
