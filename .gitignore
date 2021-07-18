@@ -1,2 +1,4 @@
 node_modules
 lerna-debug.log
+**/dist
+**/__tests__/__snapshots__
